@@ -59,8 +59,7 @@ Extracción de datos, análisis exploratorio y entrenamiento con regresión.
 #### 💬 Customer Management System
 Sistema de gestión de clientes en **Python + MySQL + Flet** con búsquedas dinámicas e interfaz moderna.
 
-#### 🚴 Haptic Navigation for Bicycles
-Sistema háptico de navegación GPS para ciclistas usando la plataforma **Bela**.
+
 
 ---
 
