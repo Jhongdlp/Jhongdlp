@@ -1,5 +1,5 @@
 <!-- Banner -->
-<h1 align="center">👋 ¡Hola, soy <a href="https://github.com/Jhongdlp">Jhon Paul Guadalupe Andrade</a>!</h1>
+<h1 align="center">👋 ¡Hola, soy <a href="https://github.com/Jhongdlp">Jhon Paúl Guadalupe Andrade</a>!</h1>
 <h3 align="center">🚀 Aspirante a Ingeniero en Inteligencia Artificial | Fundador de Catalyst Smart Flow</h3>
 
 ---
