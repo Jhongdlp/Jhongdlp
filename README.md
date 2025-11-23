@@ -81,16 +81,7 @@ Sistema de gestión de clientes en **Python + MySQL + Flet** con búsquedas din�
 
 ---
 
-###  Mis estadísticas en GitHub
 
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Jhongdlp&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Jhongdlp&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jhongdlp&layout=compact&theme=tokyonight" />
-</p>
 
 ---
 
