@@ -89,6 +89,7 @@ Sistema de gestión de clientes en **Python + MySQL + Flet** con búsquedas din�
 
  **[jhongdlp204@gmail.com](mailto:jhongdlp204@gmail.com)**  
  **[github.com/Jhongdlp](https://github.com/Jhongdlp)**
+ 
  **[Instagram/jhn.null](https://www.instagram.com/jhn.null/)**
 
  JHN:NULL
