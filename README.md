@@ -88,7 +88,9 @@ Sistema de gestión de clientes en **Python + MySQL + Flet** con búsquedas din�
 ###  Contáctame
 
  **[jhongdlp204@gmail.com](mailto:jhongdlp204@gmail.com)**  
- **[github.com/Jhongdlp](https://github.com/Jhongdlp)**  
+ **[github.com/Jhongdlp](https://github.com/Jhongdlp)**
+ **[github.com/Jhongdlp](https://github.com/Jhongdlp)**
+
  JHN:NULL
  Quito, Ecuador  
 
