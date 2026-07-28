@@ -27,16 +27,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      # Temas/tecnologías de tus repos, con iconos
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.topics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_topics: yes
-          plugin_topics_mode: icons
-          plugin_topics_limit: 24
-
       # Lenguajes usados, con detalle a fondo
       - uses: lowlighter/metrics@latest
         with:
