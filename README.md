@@ -13,6 +13,6 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,pandas,numpy,postgres,n8n,docker,git,linux,jupyter&theme=dark&perline=6" alt="Stack" width="49%" />
+  <img src="https://skillicons.dev/icons?i=python,typescript,fastapi,nextjs,nestjs,tensorflow,pytorch,sklearn,pandas,numpy,postgres,n8n,docker,git,linux,jupyter&theme=dark&perline=8" alt="Stack" width="49%" />
   <img src="./metrics.languages.svg" alt="Lenguajes" width="49%" />
 </p>
