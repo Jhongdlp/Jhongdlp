@@ -1,6 +1,11 @@
 <svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
   <rect width="900" height="220" fill="#1A1A1A"/>
+
+  <!-- ghost monogram, pure typography as background texture -->
+  <text x="900" y="200" text-anchor="end" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" font-size="300" fill="none" stroke="#E9E4D6" stroke-width="1.5" opacity="0.08">JG</text>
+
   <text x="40" y="98" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" font-size="76" fill="#E9E4D6" letter-spacing="-1">JHON</text>
-  <text x="40" y="196" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" font-size="76" fill="#E9E4D6" letter-spacing="-1">GUADALUPE</text>
+  <text x="40" y="196" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" font-size="76" fill="none" stroke="#E9E4D6" stroke-width="2" letter-spacing="-1">GUADALUPE</text>
+
   <rect x="42" y="210" width="64" height="4" fill="#F26321"/>
 </svg>
