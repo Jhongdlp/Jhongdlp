@@ -1,0 +1,69 @@
+name: Metrics
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *" # todos los días a las 06:00 UTC
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Panel principal (stats generales, estilo classic)
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: header, activity, community, repositories, metadata
+
+      # Calendario de contribuciones (año completo)
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      # Temas/tecnologías de tus repos, con iconos
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.topics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 24
+
+      # Rendimiento de tu portafolio (PageSpeed)
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.pagespeed.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://jhongdlp.com
+          plugin_pagespeed_detailed: yes
+
+      # Mapa mundial de tus stargazers
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.stargazers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_worldmap: yes
+
+      # Lenguajes usados, con detalle a fondo
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_indepth: yes
