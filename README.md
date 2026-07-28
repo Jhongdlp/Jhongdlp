@@ -35,19 +35,11 @@ Estudiante de TI (7mo semestre) enfocado en **IA, datos y automatización**. Con
 <br />
 
 <p align="center">
-  <img src="./metrics.classic.svg" alt="Métricas de GitHub" />
-</p>
-
-<p align="center">
+  <img src="./metrics.classic.svg" alt="Métricas de GitHub" width="49%" />
   <img src="./metrics.isocalendar.svg" alt="Calendario de contribuciones" width="49%" />
-  <img src="./metrics.languages.svg" alt="Lenguajes" width="49%" />
 </p>
 
 <p align="center">
   <img src="./metrics.topics.svg" alt="Temas" width="49%" />
-  <img src="./metrics.pagespeed.svg" alt="PageSpeed" width="49%" />
-</p>
-
-<p align="center">
-  <img src="./metrics.stargazers.svg" alt="Mapa de stargazers" />
+  <img src="./metrics.languages.svg" alt="Lenguajes" width="49%" />
 </p>

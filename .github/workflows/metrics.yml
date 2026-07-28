@@ -37,26 +37,6 @@ jobs:
           plugin_topics_mode: icons
           plugin_topics_limit: 24
 
-      # Rendimiento de tu portafolio (PageSpeed)
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.pagespeed.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_pagespeed: yes
-          plugin_pagespeed_url: https://jhongdlp.com
-          plugin_pagespeed_detailed: yes
-
-      # Mapa mundial de tus stargazers
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.stargazers.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_stargazers: yes
-          plugin_stargazers_charts: yes
-          plugin_stargazers_worldmap: yes
-
       # Lenguajes usados, con detalle a fondo
       - uses: lowlighter/metrics@latest
         with:
