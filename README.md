@@ -1,6 +1,6 @@
 <img src="./banner.svg" alt="Jhon Guadalupe" width="100%" />
 
-**AI · DATA · AUTOMATION** — Information Technology Engineer. I build predictive models and automated systems with TensorFlow and PyTorch.
+**AI · DATA · AUTOMATION** — Full Stack Developer & Information Technology Engineer. I build predictive models and automated systems with TensorFlow and PyTorch.
 
 [![](https://img.shields.io/badge/hello%40jhongdlp.com-1A1A1A?style=for-the-badge&logo=gmail&logoColor=E9E4D6)](mailto:hello@jhongdlp.com)
 [![](https://img.shields.io/badge/jhongdlp.com-1A1A1A?style=for-the-badge&logo=googlechrome&logoColor=E9E4D6)](https://jhongdlp.com)
